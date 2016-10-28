@@ -1,7 +1,7 @@
 PCB Workflow using LPKF Tools Part 1: Circuit Cam
 ================================================================================
 
-> Written by [Abhineet Tomar](https://github.com/abhineetst18)
+> Written by [Abhineet Tomar](https://github.com/abhineetst18).
 
 The steps that we’ll be following for this part of tutorial would be:
 

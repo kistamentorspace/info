@@ -1,14 +1,16 @@
-# Printing a Circuit board class
+# Printing a Circuit board workshop
+
+> Based on the notes by [Philipp Eisen](https://twitter.com/phileisn).
 
 all circuit boards are, is layer, insulator, layer, insulator
 
---> that makes it a capacitor 
+--> that makes it a capacitor
 
 ## Jargon:
 
   * Trace:  wires on boards are not wires - they are traces
   * Pad Size: margin between sockets?
-  * Via: the whole where the cables go trough to change layers - increase cost of board, makes it more compplicated, and makes cam operator grumpy. 
+  * Via: the whole where the cables go trough to change layers - increase cost of board, makes it more compplicated, and makes cam operator grumpy.
   * Wholes: Too mount stuff
 
 Boards are green to resist solder.
@@ -33,7 +35,7 @@ RULES to design a Circuit board that will a work:
 ## How to design the board:
 
   1. Schematic Capture - that's your devices design
-  2. Board Layout 
+  2. Board Layout
   3. Computer Aided Manufacturing (CAM-Tool)
   4. Manufactoring Tool
 
@@ -49,9 +51,9 @@ Add is obviulsy also very important
 Text in schematic is just in schematic. Doesn't go on the board itself.
 
 
-Disable all libraries. 
+Disable all libraries.
 
-For the arduino weather station enable 
+For the arduino weather station enable
 
 - diods
 - descrete   
