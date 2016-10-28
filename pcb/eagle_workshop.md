@@ -11,16 +11,16 @@ All circuit boards are conducting layers separated by insulators. That makes the
   * *Via* – a hole where the traces go trough to change layers. Vias increase cost of board, makes it more complicated, and makes a CAM operator grumpy.
   * *Holes* – To mount elements.
   * *Silkscreen* – letters are painted on the board.
-	* *Yield* – what percentage of the board works?
+  * *Yield* – what percentage of the board works?
 
 ## RULES:
 
 RULES to design a Circuit board that will a work:
 
-  * Trace width --> what is the minimum trace with / the thinner the more you can use. The thickness is usually referred to in mills - that's not millimeter but 1/1000 inch
-  * Trace space --> minimums distance between two traces
-  * Space to Board edge --> usually a lot more than minimum trace spacing
-  * Spacing to vias --> often the same as to a trace
+  * Trace width – what is the minimum trace with / the thinner the more you can use. The thickness is usually referred to in mills - that's not millimeter but 1/1000 inch
+  * Trace space – minimums distance between two traces
+  * Space to Board edge – usually a lot more than minimum trace spacing
+  * Spacing to vias – often the same as to a trace
   * Spacing to wholes consider screws when designing the spacing
   * Where you can put vias. Some places where you cant put them include: under other parts
   * Maximum layers
