@@ -3,16 +3,16 @@ Printed Circuit Boards Workflow using LPKF Tools
 
 The workflow of PCB designing can be divided into three parts
 
-1.     Creating a Schematic
-2.     Creating a Layout
-3.     Fabricating a PCB
+1. Creating a Schematic
+2. Creating a Layout
+3. Fabricating a PCB
 
 Step 1 and Step 2 are done using various tools, the recommended tools for PCB Designing are:
 
-1.     Eagle – A freeware light version, available for Windows as well as mac, recommended for beginners. It’s really easy to learn and there are plenty of resources available online to learn Eagle, it’s easy to find eagle libraries as well.
-2.     KiCAD – If you are a Linux user, then this is a great tool for PCB designing.
-3.     Altium – This is a pretty advanced tool and you’ll need to spend quite a lot of time to learn it, however, this is a very powerful tool which can be used to design boards of 6+ layers easily.
-4.     Cadence Allegro PCB Designer – Another advanced tool and a competitor of Altium, again for advanced users and takes quite a lot of time to learn.
+1. Eagle – A freeware light version, available for Windows as well as mac, recommended for beginners. It’s really easy to learn and there are plenty of resources available online to learn Eagle, it’s easy to find eagle libraries as well.
+2. KiCAD – If you are a Linux user, then this is a great tool for PCB designing.
+3. Altium – This is a pretty advanced tool and you’ll need to spend quite a lot of time to learn it, however, this is a very powerful tool which can be used to design boards of 6+ layers easily.
+4. Cadence Allegro PCB Designer – Another advanced tool and a competitor of Altium, again for advanced users and takes quite a lot of time to learn.
 
 However, in this tutorial, we’ll be concentrating on Part 3, which is Fabrication of Printed circuit boards.
 
@@ -25,24 +25,25 @@ For this workflow, we’ll be using two tools, Circuit Cam, which will be used f
 
 ## Part 1: Circuit Cam
 
-The steps that we’ll be following for this part of tutorial would be
-1.     Importing the Board Outline
-2.     Importing the Top Layer
-3.     Importing the Bottom Layer
-4.     Importing the Drill Layer
-5.     Contour Routing the Board Outline
-6.     Inserting gaps on contouring layer
-7.     Insulating Top layer
-8.     Insulating Bottom Layer
-9.     Exporting LMD File
+The steps that we’ll be following for this part of tutorial would be:
+
+1. Importing the Board Outline
+2. Importing the Top Layer
+3. Importing the Bottom Layer
+4. Importing the Drill Layer
+5. Contour Routing the Board Outline
+6. Inserting gaps on contouring layer
+7. Insulating Top layer
+8. Insulating Bottom Layer
+9. Exporting LMD File
 
 
 ### 1.   Importing the Board Outline
 
-1.     Click on the indicated menu to open the import dialogue and select the Gerber file for the Board Outline layer.
-2.     Select the “Board Outline” layer and Rename the aperture to “Board Outline”
-3.     Click on Import.
-4.     The board outline should appear as a yellow outline corresponding to the one created in your layout.
+1. Click on the indicated menu to open the import dialogue and select the Gerber file for the Board Outline layer.
+2. Select the “Board Outline” layer and Rename the aperture to “Board Outline”
+3. Click on Import.
+4. The board outline should appear as a yellow outline corresponding to the one created in your layout.
 
 ![](static/intro/image002.png)
 
@@ -52,12 +53,12 @@ The steps that we’ll be following for this part of tutorial would be
 
 ![](static/intro/image008.png)
 
-2.   Importing the Bottom Layer
+### 2.   Importing the Bottom Layer
 
-1.     Again Click on the same import menu to open the import dialogue and select the Gerber file for the Bottom layer.
-2.     Select the “Bottom layer” layer and Rename the aperture to “Bottom layer”
-3.     Click on Import.
-4.     The Bottom Layer should appear in green color corresponding to the one created in your layout.
+1. Again Click on the same import menu to open the import dialogue and select the Gerber file for the Bottom layer.
+2. Select the “Bottom layer” layer and Rename the aperture to “Bottom layer”
+3. Click on Import.
+4. The Bottom Layer should appear in green color corresponding to the one created in your layout.
 
 ![](static/intro/image010.png)
 
@@ -68,10 +69,10 @@ The steps that we’ll be following for this part of tutorial would be
 
 ### 3.   Importing the Top Layer
 
-1.     Again Click on the same import menu to open the import dialogue and select the Gerber file for the Top layer.
-2.     Select the “Top Layer” layer and Rename the aperture to “Top Layer”
-3.     Click on Import.
-4.     The Top layer should appear in Red color corresponding to the one created in your layout.
+1. Again Click on the same import menu to open the import dialogue and select the Gerber file for the Top layer.
+2. Select the “Top Layer” layer and Rename the aperture to “Top Layer”
+3. Click on Import.
+4. The Top layer should appear in Red color corresponding to the one created in your layout.
 
 ![](static/intro/image016.png)
 
@@ -82,11 +83,11 @@ The steps that we’ll be following for this part of tutorial would be
 
 ### 4.   Importing the Drill Layer
 
-1.     Again Click on the same import menu to open the import dialogue and select the Gerber file for the Drill Layer.
-2.     Select the “Drill Plated” layer and Rename the aperture to “Drill”
-3.     In the Digits m,n Section, there is a hit and trial method in this part. Most of the gerbers created from Eagle work well with a setting of 2,5. However if the drill holes are not imported to the scale, you can simply undo this and try with another pair of numbers (example 2,4 or 2,6).
-4.     Click on Import.
-5.     The Drill layer should appear in Blue corresponding to all the holes created in your layout.
+1. Again Click on the same import menu to open the import dialogue and select the Gerber file for the Drill Layer.
+2. Select the “Drill Plated” layer and rename the Aperture to “Drill”.
+3. In the *Digits m,n* section, there is a hit and trial method in this part. Most of the gerbers created from Eagle work well with a setting of 2,5. However if the drill holes are not imported to the scale, you can simply undo this and try with another pair of numbers (example 2,4 or 2,6).
+4. Click on Import.
+5. The Drill layer should appear in Blue corresponding to all the holes created in your layout.
 
 Now you should be able to see the complete layout as made in the PCB Designing tool. Now the actual work begins.
 
@@ -99,8 +100,9 @@ Now you should be able to see the complete layout as made in the PCB Designing t
 
 ### 5.   Contour Routing the Board Outline
 
-What is Contour Routing?
-Contour routing is the process of cutting the outer edge of  a milled Printed Circuit Board from the glass epoxy laminate sheet. This contouring can be done in any shape as needed by the designer and is defined as the “Board Outline”.
+> **What is Contour Routing?**
+>
+> Contour routing is the process of cutting the outer edge of  a milled Printed Circuit Board from the glass epoxy laminate sheet. This contouring can be done in any shape as needed by the designer and is defined as the “Board Outline”.
 
 In order to have a clutter free workspace, we will keep only those layers visible that we’re working with.
 To make layers visible/Invisible click on the button as illustrated by the blue arrow in the screenshot, this will open the menu for changing the layer visibility.
