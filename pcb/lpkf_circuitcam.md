@@ -141,9 +141,9 @@ Now the insulated area can be seen on the InsulateTop_Std layer, it is highlight
 
 ![](static/intro/image052.png)
 
-![](static/intro/image54.png)
+![](static/intro/image054.png)
 
-![](static/intro/image56.png)
+![](static/intro/image056.png)
 
 Now we will run the same process for Bottom layer, this time the layer would be InsulateDefaultBottom.
 
