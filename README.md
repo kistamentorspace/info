@@ -35,3 +35,7 @@ Links:
 
 * [Eagle tutorials on Sparkfun](https://learn.sparkfun.com/tutorials/tags/eagle)
 * [KiCAD video tutorials from ContextualElectronics](https://contextualelectronics.com/learning/getting-to-blinky-4-0/)
+
+---
+
+![](http://www.oshwa.org/wp-content/uploads/2014/03/oshw-logo-100-px.png)
