@@ -1,29 +1,5 @@
-Printed Circuit Boards Workflow using LPKF Tools
+PCB Workflow using LPKF Tools Part 1: Circuit Cam
 ================================================================================
-
-The workflow of PCB designing can be divided into three parts
-
-1. Creating a Schematic
-2. Creating a Layout
-3. Fabricating a PCB
-
-Step 1 and Step 2 are done using various tools, the recommended tools for PCB Designing are:
-
-1. Eagle – A freeware light version, available for Windows as well as mac, recommended for beginners. It’s really easy to learn and there are plenty of resources available online to learn Eagle, it’s easy to find eagle libraries as well.
-2. KiCAD – If you are a Linux user, then this is a great tool for PCB designing.
-3. Altium – This is a pretty advanced tool and you’ll need to spend quite a lot of time to learn it, however, this is a very powerful tool which can be used to design boards of 6+ layers easily.
-4. Cadence Allegro PCB Designer – Another advanced tool and a competitor of Altium, again for advanced users and takes quite a lot of time to learn.
-
-However, in this tutorial, we’ll be concentrating on Part 3, which is Fabrication of Printed circuit boards.
-
-There are many ways of fabricating PCB. In our case, we will be focusing on fabricating a two-layer Printed Circuit board using the LPKF Milling Machine.
-
-If you want to make a printed circuit board, make sure that you have the Gerber files for Board Outline, Top Layer, Bottom Layer and Drill Layer.
-
-For this workflow, we’ll be using two tools, Circuit Cam, which will be used for creating a CAM (Computer aided manufacturing) file, which is then used as an input for Board Master, which is a tool communicating with the Milling Machine.
-
-
-## Part 1: Circuit Cam
 
 The steps that we’ll be following for this part of tutorial would be:
 
@@ -37,8 +13,7 @@ The steps that we’ll be following for this part of tutorial would be:
 8. Insulating Bottom Layer
 9. Exporting LMD File
 
-
-### 1.   Importing the Board Outline
+## 1.   Importing the Board Outline
 
 1. Click on the indicated menu to open the import dialogue and select the Gerber file for the Board Outline layer.
 2. Select the “Board Outline” layer and Rename the aperture to “Board Outline”
@@ -53,7 +28,7 @@ The steps that we’ll be following for this part of tutorial would be:
 
 ![](static/intro/image008.png)
 
-### 2.   Importing the Bottom Layer
+## 2.   Importing the Bottom Layer
 
 1. Again Click on the same import menu to open the import dialogue and select the Gerber file for the Bottom layer.
 2. Select the “Bottom layer” layer and Rename the aperture to “Bottom layer”
@@ -67,7 +42,7 @@ The steps that we’ll be following for this part of tutorial would be:
 ![](static/intro/image014.png)
 
 
-### 3.   Importing the Top Layer
+## 3.   Importing the Top Layer
 
 1. Again Click on the same import menu to open the import dialogue and select the Gerber file for the Top layer.
 2. Select the “Top Layer” layer and Rename the aperture to “Top Layer”
@@ -81,7 +56,7 @@ The steps that we’ll be following for this part of tutorial would be:
 ![](static/intro/image020.png)
 
 
-### 4.   Importing the Drill Layer
+## 4.   Importing the Drill Layer
 
 1. Again Click on the same import menu to open the import dialogue and select the Gerber file for the Drill Layer.
 2. Select the “Drill Plated” layer and rename the Aperture to “Drill”.
@@ -98,7 +73,7 @@ Now you should be able to see the complete layout as made in the PCB Designing t
 ![](static/intro/image026.png)
 
 
-### 5.   Contour Routing the Board Outline
+## 5.   Contour Routing the Board Outline
 
 > **What is Contour Routing?**
 >
@@ -136,7 +111,7 @@ For inserting breakout gaps, select the middle of top edge (Indicated by arrow 1
 ![](static/intro/image040.png)
 
 
-### 6. Insulating Top and Bottom Layer
+## 6. Insulating Top and Bottom Layer
 
 > **Why is insulation done?**
 >
