@@ -161,3 +161,15 @@ Now the final step, after both layers are insulated is to export this CAM file a
 ![](static/intro/image064.png)
 
 Now we can close CircuitCAM and move on to BoardMaster for the milling process.
+
+## Tips
+
+### Working with text
+
+Delete the insulation of the text.
+
+Transfer the text itself from the virtual layer to the insulation and mill it with the standard bit.
+
+### Working with ground pads
+
+Look at the thermals or remove the insulation from the ground pads.
