@@ -31,7 +31,7 @@ RULES to design a Circuit board that will a work:
   1. Schematic capture - actual circuit design.
   2. Board Layout – dimensioning and routing of the circuit.
   3. Computer Aided Manufacturing (CAM-Tool).
-  4. Manufactoring Tool.
+  4. Manufacturing Tool.
 
 ## Using eagle
 
