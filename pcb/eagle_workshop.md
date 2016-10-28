@@ -28,14 +28,14 @@ RULES to design a Circuit board that will a work:
 
 ## How to design the board:
 
-  1. Schematic Capture - that's your devices design
-  2. Board Layout
-  3. Computer Aided Manufacturing (CAM-Tool)
-  4. Manufactoring Tool
+  1. Schematic capture - actual circuit design.
+  2. Board Layout – dimensioning and routing of the circuit.
+  3. Computer Aided Manufacturing (CAM-Tool).
+  4. Manufactoring Tool.
 
 ## Using eagle
 
-Most impartant are the top 4, info, eye, layers, and mark
+Most important are the top 4, info, eye, layers, and mark.
 
 Group is also important to move or delete large blocks of things
 
@@ -51,7 +51,7 @@ Disable all libraries.
 For the arduino weather station enable
 
 - diods
-- descrete   
+- descrete
 - frames
 - analog-devices
 - pin head
