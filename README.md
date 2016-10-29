@@ -12,7 +12,7 @@ The workflow of PCB designing can be divided into three parts
 Step 1 and Step 2 are done using various tools, the recommended tools for PCB Designing are:
 
 1. Eagle – A freeware light version, available for Windows as well as mac, recommended for beginners. It’s really easy to learn and there are plenty of resources available online to learn Eagle, it’s easy to find eagle libraries as well.
-2. KiCAD – If you are a Linux user, then this is a great tool for PCB designing.
+2. KiCAD – One of the the most mature open source PCB design tool. Since it's entierly free, it has none of Eagle's articifial board space limitations, although it also has a somewhat different work flow. Available for Linux, Mac and Windows, and could be built for other platforms.
 3. Altium – This is a pretty advanced tool and you’ll need to spend quite a lot of time to learn it, however, this is a very powerful tool which can be used to design boards of 6+ layers easily.
 4. Cadence Allegro PCB Designer – Another advanced tool and a competitor of Altium, again for advanced users and takes quite a lot of time to learn.
 
